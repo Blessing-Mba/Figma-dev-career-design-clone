@@ -1,0 +1,140 @@
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+body{
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.logo{
+  width:30%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  box-shadow: 0px 4px 12px rgba(196, 196, 196, 0.25);
+  z-index:999;
+}
+.menu {
+  display: flex;
+  width: 70%;
+  justify-content: flex-end;
+}
+.menu ul {
+  white-space: nowrap;
+}
+.menu ul li {
+  display: inline-block;
+  font-size: 17px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.menu li a {
+  text-decoration: none;
+  color: #4B4B4B;
+}
+.logo img {
+  width:6rem;
+}
+.donate-btn{
+  background:#27C3A1;
+  width: 120px;
+  height: 37px;
+  border-radius: 4px;
+  border: none;
+  color:white;
+}
+.header-container{
+  display:flex;
+  height:35rem;
+}
+.header-image{
+  background-image:url(https://www.indusup.com/wp-content/uploads/2020/03/Title.jpg);
+  width:100%;
+  z-index:-1;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 40rem;
+}
+  .header-caption{
+    flex:0 0 30em;
+    padding:3rem;
+    margin-top: 4.5rem;
+  }
+  .header-caption h1{
+    font-size: 54px;
+    font-weight: 700;
+    color: #08BA94;
+    margin-bottom: 0;
+  }
+  .header-caption h4{
+    width: 39%;
+    font-weight: 200;
+    color: #08BA94;
+    margin-top:10px;
+  }
+  .apply-btn{
+    height: 50px;
+    width: 160px;
+    border:none;
+    background: #27C3A1;
+    color: white;
+  }
+  .map-container{
+    background: #E6FAF5;
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+  }
+  .africa{
+    margin-top: 60px;
+  }
+  .map-text, .map-image {
+    width:50%;
+  }
+.map-text h2{
+  color: #08BA94;
+  margin-top: 6rem;
+  font-weight:700;
+  font-size:45px;
+}
+.map-text ul{
+  color: #9E9E9E;
+  list-style: none;
+  padding: 0;
+}
+.map-text ul li{
+  padding: 18px;
+  font-size: 24px;
+  font-weight:500;
+}
+.info-caption h3{
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  color:#08BA94;
+}
+.info-section{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+p{
+  display: flex;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px;
+}
+.icon h4{
+  color:#27C3A1;
+  font-size: 28px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
